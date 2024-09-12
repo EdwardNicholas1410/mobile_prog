@@ -1,0 +1,9 @@
+V#, contains assignment done in date month year (assignment x-y), kept in folder num date-month-year
+# = current amount of commits
+date = date of assignment
+month = month of assignment
+year = year of assignment
+x-y = assignment numbers
+num date = date in numbers
+num month = month in numbers
+num year = year in numbers
