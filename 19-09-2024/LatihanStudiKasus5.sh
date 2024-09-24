@@ -18,7 +18,7 @@ function workstationProcurement() {
     echo "Jumlah kursi yang dibeli: "
     read chairAmount
 
-    echo "Harga komputer setiap unit (IDR/Rp): "
+    echo "Harga kursi setiap unit (IDR/Rp): "
     read chairCostUnit
 
     echo "Harga instalasi semua unit (IDR/Rp): "
