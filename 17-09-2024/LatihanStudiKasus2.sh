@@ -52,9 +52,9 @@ function schoolBuildingConstruction(){
 
     # display additional message for if budget 
     if [ $budgetRemaining -lt 0 ]; then
-        echo "Biaya proyek melebihi anggaran sebanyak ${budgetRemaining#-}" # if budgetRemaining less than 0
+        echo "Biaya proyek melebihi anggaran sebanyak ${budgetRemaining#-}, jadi tidak bisa diselesaikan" # if budgetRemaining less than 0
     else
-        echo "Biaya proyek dicukupi oleh anggaran"
+        echo "Biaya proyek dicukupi oleh anggaran jadi bisa diselesaikan sesuai anggaran"
     fi
 }
 

@@ -30,7 +30,7 @@ function parkingLotConstruction() {
     echo "-------------------------------------------------"
 
     if [ $budgetRemaining -lt 0 ]; then
-        echo "Biaya proyek melebihi anggaran sebanyak ${budgetRemaining#-}"
+        echo "Biaya proyek melebihi anggaran sebanyak ${budgetRemaining#-}, jadi anggaran tidak mencukupi"
     else
         echo "Biaya proyek dicukupi oleh anggaran"
     fi

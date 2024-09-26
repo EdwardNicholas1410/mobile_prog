@@ -47,9 +47,9 @@ function workstationProcurement() {
     echo "---------------------------------------------------------------"
 
     if [ $budgetRemaining -lt 0 ]; then
-        echo "Biaya pembelian melebihi anggaran sebanyak ${budgetRemaining#-}"
+        echo "Biaya pengadaan melebihi anggaran sebanyak ${budgetRemaining#-}, jadi anggaran tidak mencukupi pengadaan"
     else
-        echo "Biaya pembelian dicukupi oleh anggaran"
+        echo "Biaya pengadaan dicukupi oleh anggaran"
     fi
 }
 

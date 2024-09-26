@@ -31,9 +31,9 @@ function profitCalculator() {
     echo "Keuntungan            : Rp $profit"
 
     if [ $profit -lt 0 ]; then
-        echo "Penjualan akan mengahasilkan rugi sebanyak ${profit#-}"
+        echo "Penjualan akan mengahasilkan rugi sebanyak ${profit#-} setelah menjual 10.000 unit"
     else
-        echo "Penjualan akan menghasilkan keuntungan sebanyak $profit"
+        echo "Penjualan akan menghasilkan keuntungan sebanyak $profit setelah menjual 10.000 unit"
     fi
 }
 

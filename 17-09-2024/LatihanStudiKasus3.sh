@@ -43,7 +43,7 @@ function procurementToolCost() {
 
     # display message for if budget is less than procurementTotalCost
     if [ $budgetRemaining -lt 0 ]; then
-        echo "Biaya pengadaan melebihi anggaran sebanyak ${budgetRemaining#-}" # if budgetRemaining less than 0
+        echo "Biaya pengadaan melebihi anggaran sebanyak ${budgetRemaining#-}, jadi tidak cukup" # if budgetRemaining less than 0
     else
         echo "Biaya pengadaan dicukupi oleh anggaran"
     fi

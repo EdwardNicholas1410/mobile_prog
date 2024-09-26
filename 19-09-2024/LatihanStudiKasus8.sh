@@ -37,7 +37,7 @@ function schoolTripCalculator() {
     echo "-------------------------------------------------"
 
     if [ $budgetRemaining -lt 0 ]; then
-        echo "Biaya perjalanan melebihi anggaran sebanyak ${budgetRemaining#-}"
+        echo "Biaya perjalanan melebihi anggaran sebanyak ${budgetRemaining#-}, jadi tidak cukup"
     else
         echo "Biaya perjalanan dicukupi oleh anggaran"
     fi
